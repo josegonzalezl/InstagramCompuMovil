@@ -1,0 +1,21 @@
+<Alloy>
+	<Window class="container">
+		 <View id="vista" top="0dp">
+		 		<ImageView id="image"></ImageView>
+				<Label id="frase">Inicia sesión para ver fotos y videos</Label>
+		 </View>
+		 <View id="vista1" top="50%" height="20dp">
+		 		<Button id="botonIniciarSesion" onClick="IniciarSesion">Iniciar Sesion</Button>
+		 		<Button id="botonRegistrarse" onClick="Registrarse">Registrarse</Button>
+		 </View>
+		 <View id="vista2" top="50%"  height="50%" visible="true">
+		 		<TextField id="textoUsuario" hintText="Usuario" rect="true"></TextField>
+				<TextField id="textoContraseña" passwordMask="true" hintText="Contraseña"></TextField>
+				<Button id="botonEntrar" onClick="Ingresar" >Aceptar</Button>
+		 </View>
+		 <View id="vista3" top="50%"  height="50%" visible="false">
+		 		<TextField id="textoNombreUsuario" hintText="Nombre de Usuario" borderStyle="ROUNDED"></TextField>
+				<TextField id="textoContraseña2" hintText="Contraseña"></TextField>
+		 </View>
+	</Window>
+</Alloy>
